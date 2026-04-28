@@ -1,0 +1,399 @@
+{
+    "actions": {
+        "list": "목록",
+        "create": "생성",
+        "edit": "수정",
+        "show": "보기",
+        "clone": "복제"
+    },
+    "buttons": {
+        "create": "생성",
+        "save": "저장",
+        "saveAndAdd": "저장 및 추가",
+        "logout": "로그아웃",
+        "delete": "삭제",
+        "edit": "수정",
+        "cancel": "취소",
+        "confirm": "확실합니까?",
+        "continue": "계속",
+        "filter": "필터",
+        "clear": "초기화",
+        "refresh": "새로고침",
+        "show": "보기",
+        "undo": "되돌리기",
+        "import": "가져오기",
+        "clone": "복제",
+        "archive": "보관",
+        "unArchive": "보관 해제",
+        "hideArchived": "보관된 항목 숨기기",
+        "showArchived": "보관된 항목 보기",
+        "notAccessTitle": "접근 권한이 없습니다",
+        "hideColumns": "열 숨기기",
+        "clearFilters": "필터 초기화"
+    },
+    "warnWhenUnsavedChanges": "정말 나가시겠습니까? 저장되지 않은 변경 사항이 있습니다.",
+    "notifications": {
+        "success": "성공",
+        "error": "오류 (상태 코드: {{statusCode}})",
+        "undoable": "{{seconds}}초 안에 취소할 수 있습니다.",
+        "createSuccess": "{{resource}} 생성 성공",
+        "createError": "{{resource}} 생성 오류 (상태 코드: {{statusCode}})",
+        "deleteSuccess": "{{resource}} 삭제 성공",
+        "deleteError": "{{resource}} 삭제 오류 (상태 코드: {{statusCode}})",
+        "editSuccess": "{{resource}} 수정 성공",
+        "editError": "{{resource}} 수정 오류 (상태 코드: {{statusCode}})",
+        "importProgress": "가져오는 중: {{processed}}/{{total}}",
+        "saveSuccessful": "저장 완료!",
+        "validationError": "검증 오류: {{error}}"
+    },
+    "kofi": "Ko-fi에서 후원하기",
+    "loading": "로딩 중",
+    "version": "버전",
+    "unknown": "알 수 없음",
+    "yes": "예",
+    "no": "아니요",
+    "tags": {
+        "clone": "복제"
+    },
+    "dashboard": {
+        "title": "대시보드"
+    },
+    "printing": {
+        "generic": {
+            "title": "인쇄",
+            "description": "원하는 인쇄 레이아웃을 얻으려면 아래 설정을 조정하세요. 프린터나 OS에 따라 고유한 여백 및 배율이 적용될 수 있으므로 실제 라벨에 인쇄하기 전에 일반 종이에 테스트 인쇄를 해보는 것이 좋습니다.",
+            "helpMargin": "여백은 라벨 용지와 프린터에 맞게 설정해야 하며, 이를 변경하면 전체 그리드 크기에 영향을 줍니다.",
+            "helpPrinterMargin": "안전 영역(Safe-Zone)은 프린터가 인쇄할 수 있는 종이 가장자리와의 거리를 의미하며, 이를 변경해도 전체 그리드에는 영향을 주지 않습니다.",
+            "print": "인쇄",
+            "columns": "열",
+            "rows": "행",
+            "paperSize": "용지 크기",
+            "customSize": "사용자 정의",
+            "dimensions": "크기",
+            "showBorder": "테두리 표시",
+            "previewScale": "미리보기 배율",
+            "skipItems": "항목 건너뛰기",
+            "itemCopies": "항목 복사본",
+            "contentSettings": "콘텐츠 설정",
+            "layoutSettings": "레이아웃 설정",
+            "horizontalSpacing": "가로 간격",
+            "verticalSpacing": "세로 간격",
+            "marginLeft": "왼쪽 여백",
+            "marginRight": "오른쪽 여백",
+            "marginTop": "위쪽 여백",
+            "marginBottom": "아래쪽 여백",
+            "printerMarginLeft": "안전 영역 왼쪽",
+            "printerMarginRight": "안전 영역 오른쪽",
+            "printerMarginTop": "안전 영역 위쪽",
+            "printerMarginBottom": "안전 영역 아래쪽",
+            "borders": {
+                "none": "없음",
+                "border": "테두리",
+                "grid": "그리드"
+            },
+            "settings": "프리셋",
+            "defaultSettings": "기본값",
+            "addSettings": "새 프리셋 추가",
+            "newSetting": "신규",
+            "duplicateSettings": "복제",
+            "deleteSettings": "현재 프리셋 삭제",
+            "deleteSettingsConfirm": "이 프리셋을 삭제하시겠습니까?",
+            "settingsName": "프리셋 이름",
+            "saveSetting": "프리셋 저장",
+            "saveAsImage": "이미지로 저장"
+        },
+        "qrcode": {
+            "button": "라벨 인쇄",
+            "title": "라벨 인쇄",
+            "template": "라벨 템플릿",
+            "templateHelp": "{}를 사용하여 스풀 객체의 값을 텍스트로 삽입하세요. 예를 들어, {id}는 스풀 ID로, {filament.material}은 필라멘트 재질로 대체됩니다. 값이 없으면 '?'로 표시됩니다. 두 번째 {}를 사용하여 이를 제거할 수 있습니다. 또한 값이 없는 경우 {} 사이의 모든 텍스트가 제거됩니다. 예를 들어, {Lot Nr: {lot_nr}}은 로트 번호가 있는 경우에만 표시됩니다. **텍스트**를 별표 두 개로 감싸면 굵게 표시됩니다.",
+            "textSize": "라벨 글자 크기",
+            "showContent": "라벨 내용 표시",
+            "useHTTPUrl": {
+                "label": "QR 코드 링크",
+                "tooltip": "Spoolman의 스캔 기능에서만 작동하는 전용 링크를 사용합니다. 설정된 기본 URL 또는 현재 페이지 URL이 사용됩니다.",
+                "options": {
+                    "default": "기본값",
+                    "url": "URL"
+                },
+                "preview": "미리보기:"
+            },
+            "showQRCode": "QR 코드 인쇄",
+            "showQRCodeMode": {
+                "no": "아니요",
+                "simple": "단순",
+                "withIcon": "아이콘 포함"
+            }
+        },
+        "spoolSelect": {
+            "title": "스풀 선택",
+            "description": "라벨을 인쇄할 스풀을 선택하세요.",
+            "showArchived": "보관된 항목 보기",
+            "noSpoolsSelected": "선택된 스풀이 없습니다.",
+            "selectAll": "전체 선택/해제",
+            "selectedTotal_one": "{{count}}개 스풀 선택됨",
+            "selectedTotal_other": "{{count}}개 스풀 선택됨"
+        }
+    },
+    "scanner": {
+        "title": "QR 코드 스캐너",
+        "description": "Spoolman QR 코드를 스캔하여 상세 정보를 확인하세요.",
+        "error": {
+            "notAllowed": "카메라 접근 권한이 없습니다.",
+            "insecureContext": "HTTPS 보안 연결이 아닙니다.",
+            "streamApiNotSupported": "브라우저가 카메라 기능을 지원하지 않습니다.",
+            "notReadable": "카메라를 읽을 수 없습니다.",
+            "notFound": "카메라를 찾을 수 없습니다.",
+            "unknown": "알 수 없는 오류 발생 ({{error}})"
+        }
+    },
+    "spool": {
+        "spool": "스풀",
+        "fields": {
+            "id": "ID",
+            "filament_name": "필라멘트",
+            "filament": "필라멘트",
+            "filament_internal": "내부",
+            "filament_external": "외부",
+            "price": "가격",
+            "material": "재질",
+            "weight_to_use": "무게",
+            "used_weight": "사용량",
+            "remaining_weight": "잔량",
+            "measured_weight": "측정 무게",
+            "used_length": "사용 길이",
+            "remaining_length": "남은 길이",
+            "initial_weight": "초기 무게",
+            "spool_weight": "공 스풀 무게",
+            "location": "위치",
+            "lot_nr": "로트 번호",
+            "first_used": "최초 사용",
+            "last_used": "최근 사용",
+            "registered": "등록일",
+            "comment": "비고",
+            "archived": "보관됨"
+        },
+        "fields_help": {
+            "price": "전체 스풀의 가격입니다. 설정하지 않으면 필라멘트에 설정된 가격이 적용됩니다.",
+            "weight_to_use": "입력할 무게 단위를 선택하세요. 측정 무게는 해당 필라멘트에 스풀 무게가 설정된 경우에만 사용할 수 있습니다.",
+            "used_weight": "스풀에서 사용한 필라멘트 양입니다. 새 스풀은 0g을 사용한 것으로 표시되어야 합니다.",
+            "remaining_weight": "스풀에 남은 필라멘트 양입니다. 새 스풀의 경우 필라멘트 무게와 일치해야 합니다.",
+            "measured_weight": "필라멘트와 스풀을 합친 전체 무게입니다.",
+            "initial_weight": "스풀에 감긴 필라멘트의 초기 무게(순중량)입니다. 설정하지 않으면 필라멘트 정보의 무게를 사용합니다.",
+            "spool_weight": "필라멘트가 없는 빈 스풀만의 무게입니다. 비워두면 필라멘트나 제조사 정보를 따릅니다.",
+            "location": "스풀을 보관 중인 위치입니다.",
+            "lot_nr": "제조사 로트 번호입니다. 여러 스풀을 사용할 때 인쇄물의 색상을 일정하게 유지하는 용도로 사용됩니다.",
+            "external_filament": "외부 데이터베이스의 필라멘트를 선택했습니다. 이 스풀을 생성할 때 필라멘트 정보(및 제조사 정보)가 자동으로 생성됩니다. 이미 등록된 필라멘트라면 중복될 수 있으니 주의하세요."
+        },
+        "titles": {
+            "create": "스풀 생성",
+            "clone": "스풀 복제",
+            "edit": "스풀 수정",
+            "list": "스풀 목록",
+            "show": "스풀 보기",
+            "show_title": "[스풀 #{{id}}] {{name}}",
+            "archive": "스풀 보관",
+            "adjust": "필라멘트 양 조정"
+        },
+        "form": {
+            "measurement_type": {
+                "length": "길이",
+                "weight": "무게"
+            },
+            "measurement_type_label": "측정 방식",
+            "adjust_filament_help": "여기에서 필라멘트 양을 직접 더하거나 뺄 수 있습니다. 양수(+)는 소모, 음수(-)는 추가를 의미합니다.",
+            "adjust_filament_value": "소모량",
+            "new_location_prompt": "새 위치 입력",
+            "spool_updated": "이 페이지를 연 사이에 정보가 변경되었습니다. 저장하면 해당 변경 사항을 덮어쓰게 됩니다!"
+        },
+        "messages": {
+            "archive": "이 스풀을 보관하시겠습니까?"
+        },
+        "formats": {
+            "last_used": "최근 사용: {{date}}"
+        }
+    },
+    "filament": {
+        "filament": "필라멘트",
+        "fields": {
+            "id": "ID",
+            "vendor_name": "제조사",
+            "vendor": "제조사",
+            "name": "이름",
+            "material": "재질",
+            "price": "가격",
+            "density": "밀도",
+            "diameter": "직경",
+            "weight": "무게",
+            "spool_weight": "공 스풀 무게",
+            "article_number": "품목 번호",
+            "registered": "등록일",
+            "comment": "비고",
+            "settings_extruder_temp": "노즐 온도",
+            "settings_bed_temp": "베드 온도",
+            "color_hex": "색상",
+            "single_color": "단색",
+            "multi_color": "멀티컬러",
+            "coaxial": "동축(Coextruded)",
+            "longitudinal": "그라데이션(Gradient)",
+            "external_id": "외부 ID",
+            "spools": "스풀 목록 보기"
+        },
+        "fields_help": {
+            "name": "동일 제조사의 제품과 구분하기 위한 필라멘트 이름입니다. 보통 색상 등을 포함합니다.",
+            "material": "예: PLA, ABS, PETG 등",
+            "price": "전체 스풀 가격입니다.",
+            "weight": "새 제품 상태의 필라멘트 무게(순중량)입니다. 스풀 자체의 무게는 제외한 필라멘트만의 무게이며, 보통 포장지에 적혀 있습니다.",
+            "spool_weight": "빈 스풀의 무게입니다. 스풀의 남은 무게를 측정할 때 사용됩니다.",
+            "article_number": "예: EAN, UPC 등",
+            "multi_color_direction": "멀티컬러 필라멘트는 두 가지 방식이 있습니다: 일정한 색상이 섞여 나오는 동축 방식, 또는 길이에 따라 색상이 변하는 그라데이션 방식입니다."
+        },
+        "titles": {
+            "create": "필라멘트 생성",
+            "clone": "필라멘트 복제",
+            "edit": "필라멘트 수정",
+            "list": "필라멘트 목록",
+            "show": "필라멘트 보기",
+            "show_title": "[필라멘트 #{{id}}] {{name}}"
+        },
+        "form": {
+            "filament_updated": "정보가 그 사이 업데이트되었습니다. 저장 시 덮어쓰게 됩니다!",
+            "import_external": "외부 데이터 가져오기",
+            "import_external_description": "외부 목록에서 선택하여 상세 정보를 자동으로 입력합니다. 입력 중이던 데이터는 삭제됩니다.<br><br>필요 시 제조사 정보도 자동 생성됩니다."
+        },
+        "buttons": {
+            "add_spool": "스풀 추가"
+        }
+    },
+    "vendor": {
+        "vendor": "제조사",
+        "fields": {
+            "id": "ID",
+            "name": "이름",
+            "empty_spool_weight": "공 스풀 무게",
+            "external_id": "외부 ID",
+            "registered": "등록일",
+            "comment": "비고"
+        },
+        "fields_help": {
+            "empty_spool_weight": "이 제조사에서 사용하는 빈 스풀의 무게입니다."
+        },
+        "titles": {
+            "create": "제조사 등록",
+            "clone": "제조사 복제",
+            "edit": "제조사 수정",
+            "list": "제조사 목록",
+            "show": "제조사 정보",
+            "show_title": "[제조사 #{{id}}] {{name}}"
+        },
+        "form": {
+            "vendor_updated": "이 페이지를 연 사이에 제조사 정보가 업데이트되었습니다. 저장하면 해당 변경 사항을 덮어쓰게 됩니다!"
+        }
+    },
+    "home": {
+        "home": "홈",
+        "welcome": "Spoolman에 오신 것을 환영합니다!",
+        "description": "아직 등록된 스풀이 없는 것 같네요. <helpPageLink>도움말 페이지</helpPageLink>를 확인하여 시작해 보세요."
+    },
+    "help": {
+        "help": "도움말",
+        "resources": {
+            "filament": "필라멘트 브랜드입니다. 이름, 재질, 색상, 직경 등의 속성을 가집니다.",
+            "spool": "실제로 소유하고 있는 개별 필라멘트 스풀입니다.",
+            "vendor": "필라멘트를 생산하는 업체입니다."
+        },
+        "description": "<title>도움말</title><p>시작하기 위한 팁입니다.</p><p>Spoolman은 3가지 유형의 데이터를 관리합니다:</p><itemsHelp/><p>데이터베이스에 새 스풀을 추가하려면 먼저 <filamentCreateLink>필라멘트</filamentCreateLink> 개체를 만드세요. 그 후 해당 필라멘트를 사용하는 <spoolCreateLink>스풀</spoolCreateLink> 개체를 생성하면 됩니다. 나중에 같은 종류의 필라멘트를 더 구매했다면, 기존 필라멘트 정보를 재사용하여 스풀만 추가로 등록하세요.</p><p>선택 사항으로, 필라멘트를 제조한 회사를 관리하고 싶다면 <vendorCreateLink>제조사</vendorCreateLink> 개체를 생성할 수 있습니다.</p><p>Moonraker와 같은 외부 3D 프린터 서비스를 Spoolman에 연결하면 필라멘트 사용량을 자동으로 모니터링하고 스풀 정보를 업데이트할 수 있습니다. 자세한 설정 방법은 <readmeLink>Spoolman README</readmeLink>를 참조하세요.</p>"
+    },
+    "table": {
+        "actions": "작업"
+    },
+    "settings": {
+        "settings": "설정",
+        "header": "설정",
+        "general": {
+            "tab": "일반",
+            "currency": {
+                "label": "통화"
+            },
+            "base_url": {
+                "label": "기본 URL",
+                "tooltip": "QR 코드 등 기능을 생성할 때 사용할 기본 URL입니다."
+            },
+            "round_prices": {
+                "label": "가격 반올림",
+                "tooltip": "가격을 가장 가까운 정수로 반올림하여 표시합니다."
+            }
+        },
+        "extra_fields": {
+            "tab": "추가 필드",
+            "description": "<p>항목에 사용자 정의 필드를 추가할 수 있습니다.</p><p>필드가 추가된 후에는 키(Key)나 유형을 변경할 수 없으며, 선택형 필드의 경우 선택지를 삭제하거나 다중 선택 상태를 바꿀 수 없습니다. 필드를 삭제하면 모든 항목에서 관련 데이터도 함께 삭제됩니다.</p><p>키(Key)는 다른 프로그램이 데이터를 읽고 쓰는 식별자이므로, 서드파티 프로그램과 연동할 경우 정확히 설정해야 합니다. 기본값은 새 항목에만 적용됩니다.</p><p>추가 필드는 테이블 뷰에서 정렬이나 필터링을 할 수 없습니다.</p>",
+            "params": {
+                "key": "키(Key)",
+                "name": "이름",
+                "field_type": "유형",
+                "unit": "단위",
+                "order": "순서",
+                "default_value": "기본값",
+                "choices": "선택지",
+                "multi_choice": "다중 선택"
+            },
+            "field_type": {
+                "text": "텍스트",
+                "integer": "정수",
+                "integer_range": "정수 범위",
+                "float": "실수",
+                "float_range": "실수 범위",
+                "datetime": "날짜/시간",
+                "boolean": "불리언(Yes/No)",
+                "choice": "선택형"
+            },
+            "boolean_true": "예",
+            "boolean_false": "아니요",
+            "choices_missing_error": "선택지를 삭제할 수 없습니다. 다음 항목이 누락되었습니다: {{choices}}",
+            "non_unique_key_error": "키(Key)는 중복될 수 없습니다.",
+            "key_not_changed": "키를 다른 것으로 변경해 주세요.",
+            "delete_confirm": "{{name}} 필드를 삭제하시겠습니까?",
+            "delete_confirm_description": "해당 필드와 관련된 모든 데이터가 삭제됩니다."
+        }
+    },
+    "documentTitle": {
+        "default": "Spoolman",
+        "suffix": " | Spoolman",
+        "home": {
+            "list": "홈 | Spoolman"
+        },
+        "help": {
+            "list": "도움말 | Spoolman"
+        },
+        "locations": {
+            "list": "위치 목록 | Spoolman"
+        },
+        "filament": {
+            "list": "필라멘트 목록 | Spoolman",
+            "show": "#{{id}} 필라멘트 보기 | Spoolman",
+            "edit": "#{{id}} 필라멘트 수정 | Spoolman",
+            "create": "필라멘트 생성 | Spoolman",
+            "clone": "#{{id}} 필라멘트 복제 | Spoolman"
+        },
+        "spool": {
+            "list": "스풀 목록 | Spoolman",
+            "show": "#{{id}} 스풀 보기 | Spoolman",
+            "edit": "#{{id}} 스풀 수정 | Spoolman",
+            "create": "스풀 생성 | Spoolman",
+            "clone": "#{{id}} 스풀 복제 | Spoolman"
+        },
+        "vendor": {
+            "list": "제조사 목록 | Spoolman",
+            "show": "#{{id}} 제조사 보기 | Spoolman",
+            "edit": "#{{id}} 제조사 수정 | Spoolman",
+            "create": "제조사 생성 | Spoolman",
+            "clone": "#{{id}} 제조사 복제 | Spoolman"
+        }
+    },
+    "locations": {
+        "locations": "위치",
+        "new_location": "새 위치",
+        "no_location": "위치 없음",
+        "no_locations_help": "이 페이지에서는 스풀을 보관 위치별로 정리할 수 있습니다. 먼저 스풀을 등록해 보세요!"
+    }
+}

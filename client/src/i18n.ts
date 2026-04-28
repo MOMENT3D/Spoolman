@@ -139,6 +139,11 @@ export const languages: { [key: string]: Language } = {
     fullCode: "th-TH",
     djs: () => import("dayjs/locale/th"),
   },
+  ["ko"]: {
+    name: "한국어",
+    fullCode: "ko-KR",
+    djs: () => import("dayjs/locale/ko"),
+  },
 };
 
 i18n
